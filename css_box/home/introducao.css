@@ -12,8 +12,11 @@
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 200px;
+  color: var(--cor-0);
 }
-
+.introducao-conteudo a {
+  color: var(--cor-p5);
+}
 .introducao img {
   height: 100%;
   object-fit: cover;
@@ -22,9 +25,12 @@
 .introducao h1 {
   margin-bottom: 32px;
 }
-
+.introducao h1 span {
+  color: var(--cor-p1);
+}
 .introducao p {
   margin-bottom: 20px;
+  color: var(--cor-5);
 }
 
 @media (max-width: 1200px) {
