@@ -1,5 +1,9 @@
 @import "/css_box/global/global.css";
+@import "/css_box/utilidades/tipografia.css";
+@import "/css_box/utilidades/cores.css";
 @import "/css_box/global/header.css";
 
+/* home */
 @import "/css_box/home/introducao.css";
+/* utilidades */
 @import "/css_box/utilidades/componentes.css";
