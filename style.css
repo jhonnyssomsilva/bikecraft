@@ -6,6 +6,9 @@
 /* home */
 @import "/css_box/home/introducao.css";
 @import "/css_box/home/tecnologia.css";
+@import "/css_box/home/parceiros.css";
+@import "/css_box/home/depoimento.css";
+
 /* utilidades */
 @import "/css_box/utilidades/componentes.css";
 
