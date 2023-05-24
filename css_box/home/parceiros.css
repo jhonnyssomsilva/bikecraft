@@ -1,0 +1,36 @@
+.parceiros {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.parceiros h2 {
+  margin-bottom: 60px;
+  margin-left: 95px;
+}
+.parceiros ul {
+  padding: 0 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.parceiros li {
+  display: flex;
+  padding: 32px;
+}
+.parceiros img {
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .parceiros h2 {
+    font-size: 2.5rem;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .parceiros {
+    padding-bottom: 60px;
+  }
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
