@@ -18,13 +18,16 @@
   max-width: max-content;
 }
 
+.botao:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
 .botao.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
 }
-
-.botao:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+.botao.botao.secundario:hover {
+  background: linear-gradient(#2e2e2e, #111111);
 }
 
 @media (max-width: 600px) {
