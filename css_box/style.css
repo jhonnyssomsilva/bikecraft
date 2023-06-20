@@ -13,6 +13,7 @@
 
 /* utilidades */
 @import "/css_box/utilidades/componentes.css";
+@import "/css_box/utilidades/formulario.css";
 
 /* bicicletas */
 @import "/css_box/bicicletas/bicicletas-listas.css";
@@ -29,3 +30,7 @@
 
 /* termos */
 @import "/css_box/termos/termos.css";
+
+/* contato */
+@import "/css_box/contato/contato.css";
+@import "/css_box/contato/loja.css";
