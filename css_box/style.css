@@ -31,6 +31,9 @@
 /* termos */
 @import "/css_box/termos/termos.css";
 
+/* orçamento */
+@import "/css_box/orcamento/orcamento.css";
+
 /* contato */
 @import "/css_box/contato/contato.css";
 @import "/css_box/contato/lojas.css";
