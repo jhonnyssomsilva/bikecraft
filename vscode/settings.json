@@ -1,37 +1,25 @@
 {
-  // editor
-  "editor.wordWrap": "on",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 30,
-  "editor.tabSize": 2,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "files.autoSave": "afterDelay",
-
-  // explorer
-  "explorer.compactFolders": false,
-
-  // workbench
-  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "Origamid Next",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
-
-  // prettier
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.75,
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.wordWrap": "on",
+  "editor.minimap.renderCharacters": true,
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.filePath": "off",
+  "outline.icons": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.formatOnSave": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "html.autoClosingTags": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.enable": true,
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.semi": false,
-
-  // terminal
-  "terminal.integrated.fontSize": 13,
-  "terminal.integrated.profiles.windows": {
-    "Git Bash": {
-      "source": "Git Bash"
-    }
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "editor.bracketPairColorization.enabled": false
 }
