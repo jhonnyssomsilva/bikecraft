@@ -15,6 +15,7 @@
 }
 .depoimento-conteudo p {
   font: 900 2.25rem/1.33 "Merriweather";
+  font-style: italic;
   margin-bottom: 32px;
   max-width: 32ch;
 }
